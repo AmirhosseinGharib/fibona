@@ -1,0 +1,29 @@
+using System.Security.Cryptography.X509Certificates;
+
+Console.WriteLine("lotfan adad ra vared konid ta mohasebeh konam");
+string adad = Console.ReadLine();
+int N=Convert.ToInt32(adad);
+int FIBONACHI;
+int sum = 1;
+int a = 0;
+int i = 0;
+do
+{
+    sum = sum + a;
+    Console.WriteLine(sum);
+    a = sum + a;
+    Console.WriteLine(a);
+    i= i+2;
+
+}while (i < N);
+
+
+
+
+
+
+
+
+
+
+
